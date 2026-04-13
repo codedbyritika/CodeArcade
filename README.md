@@ -1,0 +1,7 @@
+# 🎮 CodeArcade
+
+CodeArcade is a collection of interactive mini-games built using HTML, CSS, and JavaScript.  
+The purpose of this project is to strengthen core programming concepts and create engaging web-based games.
+
+---
+
