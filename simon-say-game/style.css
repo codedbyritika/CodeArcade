@@ -31,3 +31,11 @@ body{
 .blue{
     background-color: blue;
 }
+
+.flash{
+    background-color:white ;
+}
+
+.userflash{
+    background-color: lime;
+}
