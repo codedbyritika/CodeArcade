@@ -5,8 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Tic Tac Toe Game</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li>MyTicTacToe.com</li>
+        </ul>
+    </nav>
+
+    <div class="game-container">
+        <!--left box (main game grid)-->
+        <div class="container">
+            <div class="box"><span class="box-text"></span> </div>
+            <div class="box"><span class="box-text"></span> </div>
+            <div class="box"><span class="box-text"></span> </div>
+            <div class="box"><span class="box-text"></span> </div>
+            <div class="box"><span class="box-text"></span> </div>
+            <div class="box"><span class="box-text"></span> </div>
+            <div class="box"><span class="box-text"></span> </div>
+            <div class="box"><span class="box-text"></span> </div>
+            <div class="box"><span class="box-text"></span> </div>
+        </div>
+<!--right box (game info)-->
+        <div class="game-info">
+            <h1>Welcome to Tic Tac Toe Game!</h1>
+            <div>
+                <span class="info">Turn for X</span>
+                <button id="reset">Reset</button>
+            </div>
+
+            <div class="imgbox">
+                <img src="./assets/excited.gif" alt="">
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
