@@ -45,23 +45,29 @@ https://codedbyritika.github.io/CodeArcade/tic-tac-toe/
 
 ## 📂 Folder Structure
 
+```txt
 tic-tac-toe/
 │── index.html
 │── style.css
 │── script.js
 │── assets/
+```
+
 ---
 
 ## 🎯 What I Learned
-DOM Manipulation
-Event Handling
-Game Logic Implementation
-Array-based win checking
-Working with audio and animations
+
+- DOM Manipulation
+- Event Handling
+- Game Logic Implementation
+- Array-based win checking
+- Working with audio and animations
+
 ---
 
-## ⚡Future Improvements
- Add AI mode
- Dark mode
- Better responsiveness
- Score tracking
+## ⚡ Future Improvements
+
+- Add AI mode
+- Dark mode
+- Better responsiveness
+- Score tracking
