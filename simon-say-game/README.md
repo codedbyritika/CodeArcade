@@ -8,12 +8,12 @@ The game tests the user's memory by generating a sequence of colors that the pla
 
 ## 🚀 Features
 
-* 🎲 Random color sequence generation
-* 🧠 Memory-based gameplay
-* 📈 Increasing difficulty with each level
-* 🎨 Visual feedback (button flash effects)
-* ❌ Game over detection with score display
-* 🔁 Restart option after losing
+*  Random color sequence generation
+*  Memory-based gameplay
+*  Increasing difficulty with each level
+*  Visual feedback (button flash effects)
+*  Game over detection with score display
+*  Restart option after losing
 
 ---
 
@@ -34,7 +34,10 @@ The game tests the user's memory by generating a sequence of colors that the pla
 5. If you click the wrong color → Game Over
 
 ---
+## 🔗Live Link
+ https://codedbyritika.github.io/CodeArcade/simon-say-game/
 
+ ---
 
 ## 📂 Folder Structure
 
@@ -47,7 +50,9 @@ simon-says/
 
 ---
 
+
 ## 🎯 What I Learned
+
 
 * Handling user input and events
 * Working with arrays and sequences
@@ -59,9 +64,9 @@ simon-says/
 
 ## ⚡ Future Improvements
 
-* 🔊 Add sound effects for each button
-* 📱 Make the game responsive
-* 🏆 Store high scores using Local Storage
-* 🎮 Add difficulty levels
+*  Add sound effects for each button
+*  Make the game responsive
+*  Store high scores using Local Storage
+*  Add difficulty levels
 
 ---
