@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+     font-family: "Lobster Two", sans-serif;
 }
 
 .container{
@@ -10,6 +11,14 @@
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 #board{
@@ -24,13 +33,20 @@
 }
 
 .head{
-    background-color: red;
+     background:linear-gradient(green,yellow)  ;
+    border: 2px solid black;
+    transform: scale(1.05);
+    border-radius: 9px;
 }
 
 .snake{
-    background-color: purple;
+    background:linear-gradient(red,purple) ;
+    border: .25vmin solid black;
+    border-radius: 12px;
 }
 
 .food{
-    background-color: yellow;
+    background-color: #FFBD00;
+     border: .25vmin solid black;
+     border-radius: 8px;
 }
