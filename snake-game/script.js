@@ -96,7 +96,7 @@ function gameEngine() {
 
 
     //moving the snake
-    // from last keeping one parts of snake body on other part and updating head only 
+    // from last, keeping one parts of snake body on other part and updating head only 
     for (let i = snakeArr.length - 2; i >= 0; i--) {
         snakeArr[i + 1] = { ...snakeArr[i] };
     }
@@ -107,7 +107,8 @@ function gameEngine() {
 
 
     //part 2 display the snake and game 
-    //display the snake
+
+    // A)display the snake
     board.innerHTML = "";
     snakeArr.forEach((e, idx) => {
         snakeElement = document.createElement("div");
@@ -130,7 +131,7 @@ function gameEngine() {
     });
 
 
-    //create food for snake
+    //B)create food for snake
     foodElement = document.createElement("div");
     foodElement.style.gridRowStart = food.y;
     foodElement.style.gridColumnStart = food.x;
